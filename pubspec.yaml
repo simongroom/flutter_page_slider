@@ -9,7 +9,7 @@ flutter:
     platforms:
       web:
         pluginClass: PageSlider
-        fileName: lib/page_slider.dart
+        fileName: page_slider.dart
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
