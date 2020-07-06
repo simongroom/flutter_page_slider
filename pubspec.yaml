@@ -4,6 +4,13 @@ version: 0.0.2
 author: Julian Vossen <bitdirex@gmail.com>
 homepage: https://github.com/julvo/flutter_page_slider
 
+flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: PageSlider
+        fileName: lib/page_slider.dart
+
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
